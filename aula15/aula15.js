@@ -1,9 +1,19 @@
-/*for(var c=1; c>=10; c++){
-    console.log(c)
+console.log("Inicio do programa")
+for(let i=0; i<=100; i++){
+    if(i%2){
+        console.log(i+ "- par")
 
-}*/
-var c=1
-while(c>=10){
+    }else{
+        console.log(i+ "- impar")
+    }
+    //console.log("Teste de programa - valor do i:" +i)
+}
+console.log("Fim de tudo...")
+
+
+
+/*var c=1
+while(c<=10){
     console.log(c)
     c++
-}
+}*/
